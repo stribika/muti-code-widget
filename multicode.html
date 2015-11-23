@@ -12,6 +12,7 @@
         .multicode {
             display: flex;
             flex-wrap: wrap;
+            justify-content: flex-start;
 
             width: 100%;
             padding: 0px;
@@ -26,12 +27,13 @@
         .multicode-selector + label {
             order: -1;
 
-            padding-left: 5%;
-            padding-right: 5%;
-            padding-top: 0.5em;
-            padding-bottom: 0.5em;
-            border: 1px;
-            margin: auto;
+            padding: 0.5em;
+            border-top: 1px;
+            border-bottom: 0px;
+            border-left: 1px;
+            border-right: 1px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
 
             background-color: #c0c0c0;
             border-color: #808080;
